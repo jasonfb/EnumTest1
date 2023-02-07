@@ -83,4 +83,5 @@ gem "launchy", "~> 2.5", :group => :test
 
 gem "cssbundling-rails", "~> 1.1"
 
-gem "hot-glue", "~> 0.5.6"
+
+gem 'hot-glue', path: '/Users/jason/Work/Hot_Glue/hot-glue-private'

@@ -5,5 +5,9 @@ class User < ApplicationRecord
     archived: 'Is Archived',
     disabled: 'is Disabled',
     waiting: 'waiting'
-  }, _prefix: true
+  }
+
+  def name
+    id
+  end
 end

@@ -16,10 +16,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_07_144921) do
 
   # Custom types defined in this database.
   # Note that some types may not work with other database engines. Be careful if changing database.
-  create_enum "user_status", ["pending", "active", "archived"]
+  create_enum "status", ["pending", "active", "archived"]
 
   create_table "users", force: :cascade do |t|
-    t.enum "status", default: "pending", null: false, enum_type: "user_status"
+    t.enum "status", default: "pending", null: false, enum_type: "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
