@@ -80,3 +80,7 @@ gem "simplecov", "~> 0.22.0", :groups => [:development, :test]
 
 gem "simplecov-rcov", "~> 0.3.1", :group => :test
 gem "launchy", "~> 2.5", :group => :test
+
+gem "cssbundling-rails", "~> 1.1"
+
+gem "hot-glue", "~> 0.5.6"
